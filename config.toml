@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/new/public/"
+baseurl = "http://localhost:1313/new/public/"
 languageCode = "en-us"
 title = "Agency"
 theme = "hugo-agency-theme"
