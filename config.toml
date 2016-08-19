@@ -97,9 +97,8 @@ googleAnalytics = ""
 		subtitle = "Тут представленна лишь малая часть из всего того удивительного и интересного, на что стоит посмотреть во Вьетнаме"
 
 		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
+            date = "Затрачеваемое время"
+            category = "Сложность маршрута"
             buttonText = "Close project"
 
 
