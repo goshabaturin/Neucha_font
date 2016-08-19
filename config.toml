@@ -99,7 +99,7 @@ googleAnalytics = ""
 		[params.portfolio.modal]
             date = "Затрачеваемое время"
             category = "Сложность маршрута"
-            buttonText = "Close project"
+            buttonText = "Закрыть"
 
 
     # About section
