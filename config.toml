@@ -203,32 +203,33 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Contact us"
+		title = "Остались вопросы? Пишите!"
 		subtitle  = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
-			text = "Your Name *"
+			text = "Как к Вам обращаться *"
 			warning = "Please enter your name."
 
 		[params.contact.form.email]
-			text = "Your Email *"
+			text = "Ваш Email *"
 			warning = "Please enter your email address."
 
 		[params.contact.form.phone]
-			text = "Your Phone *"
+			text = "Ваш телефон *"
 			warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "Что Вы хотели бы нам сказать? *"
 			warning = "Please enter a message."
 
 
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Published under the Apache License 2.0."
+		copyright = "Все права принадлежат нам"
+		creator = "Батурин Георгий"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"

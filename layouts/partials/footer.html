@@ -4,6 +4,8 @@
         <div class="row">
             <div class="col-md-4">
                 <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
+                <br>
+                <span class="copyright">{{ with .Site.Params.footer.creator }}{{ . | markdownify }}{{ end }}</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
