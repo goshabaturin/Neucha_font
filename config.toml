@@ -78,12 +78,12 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-graduation-cap"
                 title = "Обучение серфингу и Sup-серфингу"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                description = "Отличных мест, где можно почувствовать под ногами доску и познакомиться со своей «первой волной» предостаточно. Одним из таких заслуженно считается Въетнам. В отличие от большинства туристических регионов Азии во Въетнаме не встретишь толпы туристов, но вместо этого можно полностью погрузиться в размеренную атмосферу и использовать по полной возможность учиться ловить волны в ненапряжной атмосфере."
 
             [[params.services.row.list]]
                 icon = "fa-building-o"
                 title = "Подбор отеля"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                description = "Бронирование отеля может превратиться в прогулку по минному полю – поэтому мы предоставляем услуги подбора и бронирования  номеров в отелях по самой выгодной цене."
 
 	# Portfolio section
 	[params.portfolio]
