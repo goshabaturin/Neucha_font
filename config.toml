@@ -210,19 +210,19 @@ googleAnalytics = ""
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
 			text = "Как к Вам обращаться *"
-			warning = "Please enter your name."
+			warning = "Представьтесь, пожалуйста."
 
 		[params.contact.form.email]
 			text = "Ваш Email *"
-			warning = "Please enter your email address."
+			warning = "Пожалуйста, введите Ваш email."
 
 		[params.contact.form.phone]
 			text = "Ваш телефон *"
-			warning = "Please enter your phone number."
+			warning = "Пожалуйста, введите Ваш контактный телефон."
 
 		[params.contact.form.message]
 			text = "Что Вы хотели бы нам сказать? *"
-			warning = "Please enter a message."
+			warning = "Пожалуйста, введите сообщение."
 
 
 	# Footer section
