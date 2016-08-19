@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://localhost:1313/new/public/"
-languageCode = "en-us"
-title = "Agency"
+baseurl = "https://github.com/goshabaturin/new/public/"
+languageCode = "ru"
+title = "Название"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Туризм во Въетнаме"
+	description = "Организация туристических туров во Въетнаме"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -40,60 +40,49 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
-		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
-		team = "Team"
-		contact = "Contact"
+		brand = "Discover Vietnam"
+		services = "Услуги"
+		portfolio = "Маршруты"
+		about = "О нас"
+		team = "Наша команда"
+		contact = "Контакты"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
-    # prepended links
-    #[[menu.prepend]]
-    #    url = "http://gohugo.io"
-    #    name = "Hugo"
-    #    weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
-        weight = 10
 
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		title = "Добро пожаловать во Въетнам!"
+		subtitle = "Давайте знакомиться!"
+		buttonText = "Давай!"
 
 
 	# Services section
 	[params.services]
         enable = true
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "Наши услуги"
+		subtitle = "Тут тоже можно что-то написать"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
+                icon = "fa-suitcase"
+                title = "Туры по достопремечательностям"
+                description = "«Неиспорченная» туристическими капризами, удивительная азиатская страна гостеприимно распахивает резные ворота в благоухающие жасмином сады, во дворы помпезных древних храмов, на завораживающие пляжи, окутанные дымкой рассветного тумана. При этом суета разноцветных улиц, теснота перекрестков вызывает улыбку и желание окунуться в искреннюю жизнерадостную толпу разноязычных паломников, торговцев и искателей счастья."               
+
+            [[params.services.row.list]]
+                icon = "fa-graduation-cap"
+                title = "Обучение серфингу и Sup-серфингу"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
+                icon = "fa-building-o"
+                title = "Подбор отеля"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 	# Portfolio section
@@ -103,8 +92,9 @@ googleAnalytics = ""
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		title = "Наши туры"
+		subtitle = "Тут представленна лишь малая часть из всего того удивительного и интересного, на что стоит посмотреть во Вьетнаме"
 
 		[params.portfolio.modal]
             client = "Client"

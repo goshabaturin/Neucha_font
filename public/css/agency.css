@@ -127,6 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn-xl:hover,
@@ -175,8 +176,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи */
+    color: #00cccc ; /* #fed136 */
 }
 
 .navbar-default .navbar-brand:hover,
@@ -206,10 +207,15 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; шрифт правого меню */
+    font-family: 'Merriweather', serif;
+     font-style:  italic;
+     font-weight: bold;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #1FCECB;
 }
 
 .navbar-default .nav li a:hover,
@@ -272,6 +278,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 header .intro-text {
@@ -285,6 +292,8 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 header .intro-text .intro-heading {
@@ -294,7 +303,10 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
+
 
 @media(min-width:768px) {
     header .intro-text {
@@ -308,6 +320,8 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
     }
 
     header .intro-text .intro-heading {
@@ -317,6 +331,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 }
 
