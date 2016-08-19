@@ -5,7 +5,7 @@
             <div class="col-md-4">
                 <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
                 <br>
-                <span class="copyright"> <sup>{{ with .Site.Params.footer.creator }}{{ . | markdownify }}{{ end }}</sup></span>
+                <span class="copyright"> </span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
@@ -16,9 +16,9 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    {{ range .Site.Params.footer.quicklinks }}
-                    <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
-                    {{ end }}
+                    
+                    <li><sup>{{ with .Site.Params.footer.quicklinks.text }}{{ . | markdownify }}{{ end }}</sup></li>
+                    
                 </ul>
             </div>
         </div>

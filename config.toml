@@ -229,7 +229,7 @@ googleAnalytics = ""
 	[params.footer]
         enable = true
 		copyright = "Все права принадлежат нам"
-		creator = "Created by Georgy Baturin"
+		
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
@@ -244,9 +244,7 @@ googleAnalytics = ""
 			link = "#"
 
 		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
+			text = "Created by Georgy Baturin"
+			
 
-		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+
