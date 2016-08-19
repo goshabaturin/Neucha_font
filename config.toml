@@ -205,7 +205,7 @@ googleAnalytics = ""
         enable = true
 		title = "Остались вопросы? Пишите!"
 		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Send message"
+		buttonText = "Отправить сообщение"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
