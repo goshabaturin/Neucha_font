@@ -117,40 +117,40 @@ googleAnalytics = ""
 			img = "1.jpg"
 			date = "2009"
 			title = "Начало обучения<br> серфингу во Въетнаме"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			description = "Какой-то текст<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 		[[params.about.events]]
 			img = "2.jpg"
 			date = "2011"
 			title = "Организация соревнований по Sup-серфингу"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			description = "Какой-то текст<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 		[[params.about.events]]
 			img = "3.jpg"
 			date = "2012"
 			title = "Основание собственной серф-школы"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			description = "Какой-то текст<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 		[[params.about.events]]
 			img = "4.jpg"
 			date = "2014"
 			title = "Старт экскурсионных программ"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			description = "Какой-то текст<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
 	# Team section
 	[params.team]
         enable = true
 		title = "Наша веселая компания"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		subtitle = "Какой-то текст Lorem ipsum dolor sit amet consectetur."
+		description = "Какой-то текст Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
 			img = "1.jpg"
 			name = "Щекастая в шляпе"
-			position = "Lead Designer"
+			position = "Менеджер средного звена"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -160,7 +160,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "2.jpg"
 			name = "Тыкающий пальцем"
-			position = "Lead Marketer"
+			position = "Менеджер средного звена"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -170,7 +170,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "3.jpg"
 			name = "Модная в ромашках"
-			position = "Lead Developer"
+			position = "Менеджер средного звена"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -204,7 +204,7 @@ googleAnalytics = ""
 	[params.contact]
         enable = true
 		title = "Остались вопросы? Пишите!"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		subtitle  = "Какой-то текст Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Отправить сообщение"
 
 		# 'warning' defines error messages for invalid inputs
