@@ -229,7 +229,7 @@ googleAnalytics = ""
 	[params.footer]
         enable = true
 		copyright = "Все права принадлежат нам"
-		creator = "Батурин Георгий"
+		creator = "Created by <br> Georgy Baturin"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
