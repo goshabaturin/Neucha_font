@@ -236,6 +236,38 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+ ul.social-buttons-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 20px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    
+    
+}
+
+ul.list-inline-nav{
+
+  padding-left: 0;
+  margin-left: -15px;
+  list-style: none;
+}
+.list-inline-nav > li {
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 15px;
+  font-size: 10px;
+
+}
+
+
+
 @media(min-width:982px) {
     .navbar-default {
         padding: 25px 0;
@@ -726,9 +758,7 @@ section h3.section-subheading {
 }
 
 @media (max-width: 1024px) {
-    .mine{
-        float:right;
-    }
+
 
     .team-member img{
         float:none;
