@@ -9,7 +9,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+
+            <ul class="list-inline-nav social-buttons-nav">
+
+                        {{ range .Site.Params.hero.links }}
+                            
+                            <li><a class="navbar-brand " href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                        
+                        {{ end }}
+                
+            </ul>
+
+            <!--<a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>-->
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,11 +35,7 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.services.enable }}
-                <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
+
 
                 {{ if .Site.Params.portfolio.enable }}
                 <li>

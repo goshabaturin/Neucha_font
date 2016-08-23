@@ -1,5 +1,5 @@
 {{ "<!-- Team Section -->" | safeHTML }}
-<section id="team" class="bg-light-gray">
+<section id="team">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -9,9 +9,12 @@
         </div>
         <div class="row">
             {{ range .Site.Params.team.members }}
-            <div class="col-sm-4">
+            
                 <div class="team-member">
-                    <img src="img/team/{{ .img }}" class="img-responsive img-circle" alt="">
+
+                    <img src="img/team/{{ .img }}" class="img-responsive " alt="">
+                    
+                    <div class='mine'>
                     <h4>{{ .name | markdownify }}</h4>
                     <p class="text-muted">{{ .position | markdownify }}</p>
                     <ul class="list-inline social-buttons">
@@ -19,14 +22,30 @@
                         <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
                         {{ end }}
                     </ul>
-                </div>
-            </div>
+                    <div>
+
+                    
+                 
+                
+           
             {{ end }}
+
+
+                    <div class="col-lg-6 col-lg-offset-0 text-left" style=" margin-top:1%;">
+                            <ul>
+                                <li> {{ with .Site.Params.team.description_one }}{{ . | markdownify }}{{ end }}</li>
+                                <li> {{ with .Site.Params.team.description_two }}{{ . | markdownify }}{{ end }}</li>
+                                <li> {{ with .Site.Params.team.description_three }}{{ . | markdownify }}{{ end }}</li>
+                                <li> {{ with .Site.Params.team.description_four }}{{ . | markdownify }}{{ end }}</li>
+                            </ul>
+                    </div>
+                </div>
+
+                    
+
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-        </div>
+        
     </div>
 </section>
+
+{{ "<!-- Services Section -->" | safeHTML }}

@@ -1,11 +1,36 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
     <div class="container">
+        <!-- makes social buttons under menu 
+        <div class=" intro-social"  >
+            <ul class="list-inline social-buttons">
+
+                        {{ range .Site.Params.hero.links }}
+                            
+                            <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                        
+                        {{ end }}
+                
+            </ul>
+        </div>
+        -->
         <div class="intro-text">
-            <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
-            <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-            <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
+        
+            <div class="intro-lead-in" >{{ with .Site.Params.hero.title_small }}{{ . | markdownify }}{{ end }}</div>
+            <div class="intro-heading">{{ with .Site.Params.hero.title_big }}{{ . | markdownify }}{{ end }}</div>
+            <div class=" intro-service-text" >
+            <ul>
+	            <li>{{ with .Site.Params.hero.subtitle_1 }}{{ . | markdownify }}{{ end }}</li>
+	             <li>{{ with .Site.Params.hero.subtitle_2 }}{{ . | markdownify }}{{ end }}</li>
+	             <li>{{ with .Site.Params.hero.subtitle_3 }}{{ . | markdownify }}{{ end }}</li>
+	             <li>{{ with .Site.Params.hero.subtitle_4 }}{{ . | markdownify }}{{ end }}</li>
+	             <li><a href='#' target="_blank">{{ with .Site.Params.hero.subtitle_5 }}{{ . | markdownify }}{{ end }}</a></li>
+	             <li><a href='http://www.vlbarrel.ru' target="_blank">{{ with .Site.Params.hero.subtitle_6 }}{{ . | markdownify }}{{ end }}</a></li>
+	        </ul>
+            </div>
+            <!--<a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>-->
         </div>
     </div>
 </header>
-{{ "<!-- Services Section -->" | safeHTML }}
+{{ "<!-- Team Section -->" | safeHTML }}
+

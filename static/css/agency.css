@@ -236,7 +236,39 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
-@media(min-width:768px) {
+ ul.social-buttons-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 20px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    
+    
+}
+
+ul.list-inline-nav{
+
+  padding-left: 0;
+  margin-left: -15px;
+  list-style: none;
+}
+.list-inline-nav > li {
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 15px;
+  font-size: 10px;
+
+}
+
+
+
+@media(min-width:982px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -287,12 +319,26 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    margin-top: 7%;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+header .intro-service-text {
+    margin-left:40%;
+    float:right;
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: left;
 
 }
 
@@ -307,14 +353,59 @@ header .intro-text .intro-heading {
 
 }
 
+header .intro-social{
+     margin-left:40%;
+     margin-top:7%;
+    float:right;
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: left;
+}
+
+@media(max-width: 768px){
+    header .intro-social {
+        float:none;
+        margin:0 auto;
+        margin-top:16%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+     header .intro-text .intro-lead-in {
+        margin-top: 0.5%;
+     }
+}
+header ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    text-align: center;
+    display:table-cell;
+    vertical-align:bottom;
+}
+
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 10%;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
+
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
@@ -642,6 +733,8 @@ section h3.section-subheading {
     }
 }
 
+
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -650,6 +743,8 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    float:left;
+    max-width:50%;
 }
 
 .team-member h4 {
@@ -661,6 +756,15 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
+
+@media (max-width: 1024px) {
+
+
+    .team-member img{
+        float:none;
+    }
+}
+
 
 aside.clients img {
     margin: 50px auto;
@@ -760,7 +864,7 @@ ul.social-buttons li a {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 40px;
     outline: 0;
     color: #fff;
