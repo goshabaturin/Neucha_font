@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://goshabaturin.github.io/new/public/"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
