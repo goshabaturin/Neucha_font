@@ -31,39 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-  <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-            <script>
-                $(document).ready(function(){
-                    //Скрыть PopUp при загрузке страницы    
-                    PopUpHide_first();
-                    PopUpHide_second();
-                });
-                
-                //Функция отображения PopUp формы связи
-                function PopUpShow_first(){
-                    $("#popup1").show();
-                    PopUpHide_second();
-                }
-                //Функция скрытия PopUp формы связи
-                function PopUpHide_first(){
-                    $("#popup1").hide();
-                }
 
-                //Функция отображения PopUp формы заказа звонка
-                function PopUpShow_second(){
-                    $("#popup2").show();
-                    PopUpHide_first();
-                }
-                //Функция скрытия PopUp формы заказа звонка
-                function PopUpHide_second(){
-                    $("#popup2").hide();
-                }
-
-
-
-
-
-            </script>
 </head>
     <body id="page-top" class="index">
         <!-- Navigation -->
@@ -297,11 +265,37 @@
 
 
                 });
+
+            PopUpHide_first();
+            PopUpHide_second();
         });
+
+
+    
+                
+                
+                function PopUpShow_first(){
+                    $("#popup1").show();
+                    PopUpHide_second();
+                }
+                
+                function PopUpHide_first(){
+                    $("#popup1").hide();
+                }
+
+                
+                function PopUpShow_second(){
+                    $("#popup2").show();
+                    PopUpHide_first();
+                }
+                
+                function PopUpHide_second(){
+                    $("#popup2").hide();
+                }
         </script>
 
         <div class='row text-center'>
-            <div class="my-slider text-center">
+            <div class="my-slider">
                 <ul>
                     <li> <img src="http://placehold.it/800x600?text=Первый"></li>
                     <li> <img src="http://placehold.it/800x600?text=Второй"></li>
@@ -439,38 +433,7 @@
         </div>
 
         <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-            <script>
-               $(window).load(function(){
-                    
-                    PopUpHide_first();
-                    PopUpHide_second();
-                });
 
-                
-                function PopUpShow_first(){
-                    $("#popup1").show();
-                    PopUpHide_second();
-                }
-                
-                function PopUpHide_first(){
-                    $("#popup1").hide();
-                }
-
-                
-                function PopUpShow_second(){
-                    $("#popup2").show();
-                    PopUpHide_first();
-                }
-                
-                function PopUpHide_second(){
-                    $("#popup2").hide();
-                }
-
-
-
-
-
-            </script>
             <style>
                 .b-container{
                 width:50%;
