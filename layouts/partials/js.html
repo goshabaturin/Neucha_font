@@ -40,24 +40,24 @@
     
                 
                 //Функция отображения PopUp формы связи
-
-                $("#popup1").live({click:function(){
-                	$("#popup1").show();
-                    $("#popup2").hide();
-                });
-
-                 $("#popup2").live({click:function(){
-                	$("#popup2").show();
-                    $("#popup1").hide();
-                });
-
+                function PopUpShow_first(){
+                    $("#popup1").show();
+                    PopUpHide_second();
+                }
                 //Функция скрытия PopUp формы связи
-                $(".hide").live({click:function(){
-                	$("#popup2").hide();
+                function PopUpHide_first(){
                     $("#popup1").hide();
-                });
+                }
 
-            
+                //Функция отображения PopUp формы заказа звонка
+                function PopUpShow_second(){
+                    $("#popup2").show();
+                    PopUpHide_first();
+                }
+                //Функция скрытия PopUp формы заказа звонка
+                function PopUpHide_second(){
+                    $("#popup2").hide();
+                }
         </script>
 {{ range .Site.Params.custom_js }}
     <script src="{{ . | absURL }}"></script>

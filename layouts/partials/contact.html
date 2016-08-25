@@ -133,7 +133,7 @@
             <br>
             
             <div class="b-container" >
-                <a href="PopUpShow_first()"><i class="fa fa-envelope" aria-hidden="true"></i><br>Написать Нам</a> 
+                <a href="javascript:PopUpShow_first()"><i class="fa fa-envelope" aria-hidden="true"></i><br>Написать Нам</a> 
             </div>
            
 
@@ -141,7 +141,7 @@
                 <div class="b-popup-content" >
                     <div class="row">
                         <div class="col-lg-12">
-                        <a href="PopUpHide_first()" style='padding-left:49%; '> <img class='hide'src="img/close-btn.png"> </a>
+                        <a href="javascript:PopUpHide_first()" style='padding-left:49%; '> <img class='hide'src="img/close-btn.png"> </a>
                             <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
                                 <div class="row">
                                     
@@ -182,14 +182,14 @@
 
            
              <div class="b-container" >
-                <a href="PopUpShow_second()"><i class="fa fa-phone" aria-hidden="true"></i><br>Заказать Звонок</a> 
+                <a href="javascript:PopUpShow_second()"><i class="fa fa-phone" aria-hidden="true"></i><br>Заказать Звонок</a> 
             </div>
             
              <div class="b-popup" id="popup2" >
                 <div class="b-popup-content" >
                     <div class="row">
                         <div class="col-lg-12">
-                        <a href="PopUpHide_second()" style='padding-left:49%; padding-top:1%;'> <img class='hide' src="img/close-btn.png"> </a>
+                        <a href="javascript:PopUpHide_second()" style='padding-left:49%; padding-top:1%;'> <img class='hide' src="img/close-btn.png"> </a>
                             <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
                                 <div class="row">
                                     
