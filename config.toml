@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/new_site/public/"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
@@ -87,6 +87,7 @@ googleAnalytics = ""
             date = "Затрачеваемое время"
             category = "Сложность маршрута"
             buttonText = "Закрыть"
+
 
 
 	# Team section
