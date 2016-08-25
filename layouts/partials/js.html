@@ -14,7 +14,51 @@
 {{ template "_internal/google_analytics.html" . }}
 
 
+<script src="{{ .Site.BaseURL }}js/unslider-min.js"></script>
+<script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                autoplay: true, 
+                infinite: true,
+                animateHeight:true,
+                arrows:false,
+                speed: 500,               //  The speed to animate each slide (in milliseconds)
+                delay: 3000,              //  The delay between slide animations (in milliseconds)
+                nav:true,
+                keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+                dots: true,               //  Display dot navigation
+                fluid: true             //  Support responsive design. May break non-responsive designs
 
+
+                });
+             $("#popup1").hide();
+             $("#popup2").hide();
+             
+        });
+
+
+    
+                
+                //Функция отображения PopUp формы связи
+                function PopUpShow_first(){
+                    $("#popup1").show();
+                    PopUpHide_second();
+                }
+                //Функция скрытия PopUp формы связи
+                function PopUpHide_first(){
+                    $("#popup1").hide();
+                }
+
+                //Функция отображения PopUp формы заказа звонка
+                function PopUpShow_second(){
+                    $("#popup2").show();
+                    PopUpHide_first();
+                }
+                //Функция скрытия PopUp формы заказа звонка
+                function PopUpHide_second(){
+                    $("#popup2").hide();
+                }
+        </script>
 {{ range .Site.Params.custom_js }}
     <script src="{{ . | absURL }}"></script>
 {{ end }}
