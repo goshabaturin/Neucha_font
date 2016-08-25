@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/new_site/public/"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
@@ -31,7 +31,7 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "g1042582@mvrht.com"
 
     # Link custom assets relative to /static
     custom_css = []
@@ -131,7 +131,7 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-calendar"
                 title = "График работы"
-                description = "Мы работаем в курорстный сезон, с октября по май. С мая по октябрь во Въетнаме сезон дождей."
+                description = "Мы работаем в курортный сезон, с октября по май. С мая по октябрь во Въетнаме сезон дождей."
 
 	
 
@@ -143,9 +143,10 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Остались вопросы? Пишите!"
-		subtitle  = "Какой-то текст Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Отправить сообщение"
+		title = "Остались вопросы?"
+		subtitle  = ""
+		message_buttonText = "Отправить сообщение"
+		order_call_buttonText ="Заказать звонок"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]

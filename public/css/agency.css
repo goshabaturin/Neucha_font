@@ -427,7 +427,11 @@ header ul.social-buttons li a {
 }
 
 section {
-    padding: 100px 0;
+    padding: 0 0;
+}
+
+section > #photo{
+    padding-top:0;
 }
 
 section h2.section-heading {
@@ -782,7 +786,9 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-    margin-bottom: 25px;
+    width:40%;
+    margin-top: 10px;
+    margin:0 auto;
 }
 
 section#contact .form-group input,
@@ -796,6 +802,32 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+}
+
+@media (max-width: 982px){
+
+    section#contact .form-group {
+    width:60%;
+    margin-top: 10px;
+    margin:0 auto;
+    }
+    
+    section#contact .form-group textarea.form-control {
+    height: 60px;
+    }
+}
+
+@media (max-height: 415px){
+
+    section#contact .form-group {
+    width:45%;
+    height: 20%;
+    
+    padding-left: 10%;
+    float:left;
+    }
+
+
 }
 
 section#contact .form-control:focus {

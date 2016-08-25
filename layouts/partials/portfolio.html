@@ -27,3 +27,49 @@
         </div>
     </div>
 </section>
+
+{{ "<!-- Unslider script -->" | safeHTML }}
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="{{ .Site.BaseURL }}js/unslider-min.js"></script>
+
+    
+ 
+<section id="photo" class="bg-light-gray" >
+    
+    <div class="container">
+        
+        <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                autoplay: true, 
+                infinite: true,
+                animateHeight:true,
+                arrows:false,
+                speed: 500,               //  The speed to animate each slide (in milliseconds)
+                delay: 3000,              //  The delay between slide animations (in milliseconds)
+                nav:true,
+                keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+                dots: true,               //  Display dot navigation
+                fluid: false              //  Support responsive design. May break non-responsive designs
+
+
+                });
+        });
+        </script>
+
+        <div class='row text-center'>
+            <div class="my-slider">
+                <ul>
+                    <li> <img src="http://placehold.it/800x600?text=Первый"></li>
+                    <li> <img src="http://placehold.it/800x600?text=Второй"></li>
+                    <li> <img src="http://placehold.it/800x600?text=Третий"></li>
+                </ul>
+            </div>
+        </div>
+            
+        
+    </div>
+
+</section>
