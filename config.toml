@@ -170,21 +170,9 @@ googleAnalytics = ""
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Все права принадлежат нам"
-		author = "Created by Georgy Baturin"
-		
-
-		[[params.footer.social]]
-			icon = "fa-twitter"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
+		copyright = "©  Vungtautravel.ru"
+		author = 'Создано "На берегу"'		
+		phone = '+8(914)000-00-00'
 
 
 			
