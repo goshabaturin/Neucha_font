@@ -16,7 +16,7 @@
                     
                     <div class='mine'>
                     <h4>{{ .name | markdownify }}</h4>
-                    <p class="text-muted">{{ .position | markdownify }}</p>
+                    <p class="text-muted text-muted-mine">{{ .position | markdownify }}</p>
                     <ul class="list-inline social-buttons">
                         {{ range .social }}
                         <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
@@ -31,7 +31,7 @@
             {{ end }}
 
 
-                    <div class="col-lg-6 col-lg-offset-0 text-left" style=" margin-top:1%;">
+                    <div class="col-lg-6 col-lg-offset-0 text-left" style="margin-top:1%;">
                             <ul>
                                 <li> {{ with .Site.Params.team.description_one }}{{ . | markdownify }}{{ end }}</li>
                                 <li> {{ with .Site.Params.team.description_two }}{{ . | markdownify }}{{ end }}</li>
