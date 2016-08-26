@@ -183,14 +183,17 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи */
-    color: #00cccc ; /* #fed136 */
+    /*color: #00cccc ;  #fed136 */
+    color:#fed136 ;
 }
+
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #fed136;
 }
 
 .navbar-default .navbar-collapse {
@@ -214,14 +217,15 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; шрифт правого меню */
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
      font-style:  italic;
      font-weight: bold;
-     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+     
 
     font-weight: 400;
     letter-spacing: 1px;
-    color: #1FCECB;
+    color: #fed136 ;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .navbar-default .nav li a:hover,
@@ -332,6 +336,7 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#fed136 ;
 
 }
 
@@ -355,7 +360,8 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#fed136 ;
+    
 
 }
 
@@ -368,7 +374,7 @@ header .intro-social{
     font-size: 16px;
     font-style: italic;
     line-height: 22px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
     text-align: left;
 }
 
@@ -424,7 +430,8 @@ header ul.social-buttons li a {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style: italic;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
