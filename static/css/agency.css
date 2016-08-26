@@ -10,6 +10,9 @@ body {
 }
 
 .text-muted {
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
+    font-weight: bold;
     color: #777;
 }
 
@@ -56,6 +59,15 @@ h6 {
     font-weight: 700;
 }
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
+    font-weight: bold;
+    color:#fed136;
+    text-shadow: 2px 0 #01B7DA, 0 2px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
+    
+
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -188,12 +200,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-
+/* цвет иконок социальных сетей в меню при наведении*/
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fed136;
+    color: #FFFE0F;/*#2A3B65;*/
 }
 
 .navbar-default .navbar-collapse {
@@ -216,8 +228,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; шрифт правого меню */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;/*шрифт правого меню */
      font-style:  italic;
      font-weight: bold;
      
@@ -246,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
- ul.social-buttons-nav li a {
+ ul.social-buttons-nav>li>a {
     display: block;
     width: 50px;
     height: 50px;
@@ -260,6 +271,14 @@ fieldset[disabled] .btn-xl.active {
     transition: all .3s;
     
     
+}
+
+/* изменение цвета при наведении на социальные иконки в меню*/
+ul.social-buttons-nav>li:hover,
+ul.social-buttons-nav>li:focus{
+
+    background-color:#01B7DA ;/*CAE0E3;*/
+    border-radius: 100%;
 }
 
 ul.list-inline-nav{
@@ -326,25 +345,30 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
+    font-weight: bold;
 }
 
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+   /* font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 #01B7DA, 0 1px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
     color:#fed136 ;
 
 }
+
+
 
 header .intro-service-text {
     margin-left:40%;
     float:right;
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
     font-size: 16px;
     font-style: italic;
     line-height: 22px;
