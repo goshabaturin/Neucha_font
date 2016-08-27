@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313"
+baseurl = "https://goshabaturin.github.io/Neucha_font/public/"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
