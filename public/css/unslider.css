@@ -6,7 +6,7 @@
 }
 
 .unslider {
-    width: 90% !important;
+    width: 60% !important;
 	position: relative;
 	overflow: auto;
 }
@@ -27,7 +27,7 @@
 
 @media(max-width: 320px){
 	.unslider {
-    width: 90% !important;
+    width: 60% !important;
 	position: relative;
 	overflow: auto;
 
@@ -41,7 +41,7 @@
 
 @media(max-width: 480px){
 	.unslider {
-    width: 60% !important;
+    max-width: 60% !important;
 	position: relative;
 	overflow: auto;
 
@@ -55,7 +55,7 @@
 
 @media(max-width: 570px){
 	.unslider {
-    width: 55% !important;
+    max-width: 55% !important;
 	position: relative;
 	overflow: auto;
 
@@ -69,7 +69,7 @@
 
 @media(max-width: 740px){
 	.unslider {
-    width: 55% !important;
+    max-width: 55% !important;
 	position: relative;
 	overflow: auto;
 
@@ -83,7 +83,7 @@
 
 @media(max-width: 1050px){
 	.unslider {
-    width: 90% !important;
+    max-width: 70% !important;
 	position: relative;
 	overflow: auto;
 

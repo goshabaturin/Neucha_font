@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/new_site/public/"
+baseurl = "http://localhost:1313"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
@@ -171,8 +171,9 @@ googleAnalytics = ""
 	[params.footer]
         enable = true
 		copyright = "©  Vungtautravel.ru"
-		author = 'Создано "На берегу"'		
-		phone = '+8(914)000-00-00'
+		author = 'Создано "На берегу"'	
+		author_link= "https://vk.com/id5069580"	
+		phone = '+8(914)-000-00-00'
 
 
 			
