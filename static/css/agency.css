@@ -10,8 +10,8 @@ body {
 }
 
 .text-muted {
-    font-family: 'Neucha', cursive;
-
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
     font-weight: bold;
     color: #777;
 }
@@ -61,7 +61,8 @@ h6 {
 
 h2, h4, .text-muted-mine{
     
-    font-family: 'Neucha', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
     font-weight: bold;
     color:#fed136;
     text-shadow: 2px 0 #01B7DA, 0 2px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
@@ -228,7 +229,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;/*шрифт правого меню */
+    font-family: 'Open Sans', sans-serif;/*шрифт правого меню */
+    font-style:  italic;
      font-weight: bold;
      
 
@@ -380,7 +382,8 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    font-family: 'Neucha', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
     font-weight: bold;
 }
 
@@ -1106,7 +1109,8 @@ body {
     float:left;
     margin: 0 auto; 
     text-align: center;
-    font-family: 'Neucha', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-style:  italic;
     font-weight: bold;
     color:#fed136;
     text-shadow: 2px 0 #01B7DA, 0 2px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
