@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/PoiretOne_font/public/"
+baseurl = "http://localhost:1313"
 languageCode = "ru"
 title = "Название"
 theme = "hugo-agency-theme"
