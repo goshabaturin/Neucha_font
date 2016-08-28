@@ -74,6 +74,7 @@ h2, h4, .text-muted-mine{
     font-style:  italic;
     font-weight: normal;
     text-shadow: none;
+    color:black;
 }
 .mine h4{
     color:black;
