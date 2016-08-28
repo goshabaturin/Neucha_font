@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;/*шрифт правого меню */
+    font-family: 'Open Sans', sans-serif;/*шрифт правого меню */
     font-style:  italic;
      font-weight: bold;
      
