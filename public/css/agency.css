@@ -69,9 +69,11 @@ h2, h4, .text-muted-mine{
     
 
 }
-.text-muted-mine p{
+.mine .text-muted-mine {
+    font-family: 'Neucha', cursive;
+    font-style:  italic;
     font-weight: normal;
-     text-shadow: none;
+    text-shadow: none;
 }
 .mine h4{
     color:black;
