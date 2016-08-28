@@ -72,7 +72,7 @@ h2, h4, .text-muted-mine{
 
 .mine h4{
     color:black;
-    text-shadow: 0 0 black, 0 0  black, 0 0  black, 0 0  black;
+    text-shadow: 0;
 }
 
 .img-centered {
