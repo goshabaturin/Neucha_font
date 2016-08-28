@@ -407,7 +407,9 @@ header .intro-service-text {
     margin-bottom: 25px;
     font-weight: normal;
     font-size: 16px;
-    font-style: italic;
+    font-family: 'Open Sans', sans-serif;/*услуг на главной */
+    font-style:  italic;
+    font-weight: bold;
     line-height: 22px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: left;
