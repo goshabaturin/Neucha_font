@@ -69,7 +69,7 @@ h2, h4, .text-muted-mine{
     
 
 }
-.text-muted .text-muted-mine{
+.text-muted-mine p{
     font-weight: normal;
      text-shadow: none;
 }
