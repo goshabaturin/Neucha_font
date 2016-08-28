@@ -69,6 +69,10 @@ h2, h4, .text-muted-mine{
     
 
 }
+
+.mine h4{
+    color:black;
+}
 .img-centered {
     margin: 0 auto;
 }
