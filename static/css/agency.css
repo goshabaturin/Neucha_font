@@ -396,17 +396,16 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    font-family: 'Neucha', cursive;
-    font-style:  italic;
+    font-family: 'Rubik Mono One', sans-serif;
+    
     font-weight: bold;
 }
 
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-   font-family: 'Neucha', cursive;
+   font-family: 'Rubik Mono One', sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
     text-shadow: -1px 0 #01B7DA, 0 1px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
     color:#fed136 ;
@@ -433,7 +432,7 @@ header .intro-service-text {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -447,9 +446,9 @@ header .intro-social{
      margin-top:7%;
     float:right;
     margin-bottom: 25px;
-    font-family: 'Neucha', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 16px;
-    font-style: italic;
+    
     line-height: 22px;
     
     text-align: left;
