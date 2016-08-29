@@ -70,7 +70,7 @@ h6 {
 h2, h4, .text-muted-mine{
     
     font-family: 'Rubik Mono One', sans-serif;
-    color:black;
+    color:#fff;
     text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     
 
@@ -421,6 +421,7 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
     font-family: 'Rubik Mono One', sans-serif;
+    color:#fff;
 
     
     
