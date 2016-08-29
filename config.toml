@@ -65,6 +65,7 @@ googleAnalytics = ""
 		subtitle_5 = "Пивные туры"
 		subtitle_6 = "Серф и сап туры"
 		buttonText = "Давай!"
+		instagram_link="#"
 
 		links=[
 				["fa-vk", "#"],
