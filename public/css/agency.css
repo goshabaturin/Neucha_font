@@ -429,13 +429,13 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-top: 7%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: 'Rubik Mono One', sans-serif;, sans-serif;
     font-size: 22px;
     
     line-height: 22px;
     text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    color:#fed136 ;
+    color:#33ccff;
 
 }
 
