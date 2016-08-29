@@ -427,7 +427,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;, sans-serif;
     font-size: 22px;
     
     line-height: 22px;
@@ -442,10 +442,10 @@ header .intro-service-text {
     margin-left:40%;
     float:right;
     margin-bottom: 25px;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;/*услуг на главной */
-    font-style:  italic;
+    
     
     line-height: 22px;
     text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
@@ -539,7 +539,7 @@ header ul.social-buttons li a {
 }
 
 section {
-    padding: 0 0;
+    padding: 100px 0;
 }
 
 section > #photo{
