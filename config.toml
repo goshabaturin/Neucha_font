@@ -146,7 +146,7 @@ googleAnalytics = ""
         enable = true
 		title = "Остались вопросы?"
 		subtitle  = ""
-		message_buttonText = "Отправить сообщение"
+		message_buttonText = "Отправить"
 		order_call_buttonText ="Заказать звонок"
 
 		# 'warning' defines error messages for invalid inputs
