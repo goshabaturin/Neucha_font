@@ -11,8 +11,6 @@ body {
 
 .text-muted {
     font-family: 'Neucha', cursive;
-    font-style:  italic;
-    font-weight: bold;
     color: #777;
 }
 
@@ -52,33 +50,57 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5, /*название туров в превьющке - тег <h5>*/
 h6 {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
-    font-weight: 700;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: normal;
 }
 
+
+/* 
+
+<h2> - название секций (например "Наши туры") и название туров и клике на них (например "Дворец независимости" вверху); название туров в превьющке - тег <h5> 
+
+<h4> - текст "Клокова Наталья"
+
+. text-muted-mine - текст "Основатель" 
+
+*/
 h2, h4, .text-muted-mine{
     
     font-family: 'Rubik Mono One', sans-serif;
-    font-style:  italic;
-    font-weight: bold;
     color:#fed136;
-    text-shadow: 2px 0 black, 0 2px  black, 1px 0  black, 0 -1px  black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     
 
 }
 .mine .text-muted-mine {
-     font-family: 'Neucha', cursive;
+    font-family: 'Neucha', cursive;
     font-style:  italic;
     font-weight: normal;
     text-shadow: none;
     color:black;
 }
 .mine h4{
-    color:black;
-    text-shadow: none;
+    font-weight: normal;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+}
+
+.mine ul{
+    font-family: 'Neucha', cursive;
+    font-weight:500;
+}
+
+
+.modal-body p,ul{
+    font-family: 'Neucha', cursive;
+    font-weight:500;
+}
+.modal-body button{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 200;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 }
 
 .img-centered {
@@ -158,7 +180,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 }
 
 .btn-xl:hover,
@@ -249,7 +271,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fed136 ;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 }
 
 .navbar-default .nav li a:hover,
@@ -397,8 +419,9 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
     font-family: 'Rubik Mono One', sans-serif;
-    font-style:  italic;
-    font-weight: bold;
+
+    
+    
 }
 
 header .intro-text .intro-lead-in {
@@ -406,9 +429,9 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 22px;
-    font-style: italic;
+    
     line-height: 22px;
-    text-shadow: -1px 0 #01B7DA, 0 1px #01B7DA, 1px 0 #01B7DA, 0 -1px #01B7DA;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     color:#fed136 ;
 
 }
@@ -423,9 +446,9 @@ header .intro-service-text {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;/*услуг на главной */
     font-style:  italic;
-    font-weight: bold;
+    
     line-height: 22px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     text-align: left;
 
 }
@@ -449,7 +472,7 @@ header .intro-social{
     margin-bottom: 25px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 16px;
-    font-style: italic;
+    
     line-height: 22px;
     
     text-align: left;
@@ -500,19 +523,18 @@ header ul.social-buttons li a {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-style: italic;
         font-family: 'Rubik Mono One', sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     }
 }
 
@@ -549,6 +571,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-family: 'Open Sans', sans-serif;/*услуг на главной */
 }
 
 #portfolio .portfolio-item {
@@ -1126,10 +1149,9 @@ body {
     margin: 0 auto; 
     text-align: center;
     font-family: 'Neucha', cursive;
-    font-style:  italic;
     font-weight: bold;
     color:#fed136;
-    text-shadow: 2px 0  black, 0 2px  black, 1px 0  black, 0 -1px  black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 
 
     }
@@ -1153,8 +1175,6 @@ transform: scale(1.3);
 .b-popup{
     width:100%;
     min-height:100%;
-    
-
     background-color: rgba(0,0,0,0.5);
     overflow:hidden;
     position:fixed;
@@ -1165,6 +1185,9 @@ transform: scale(1.3);
 
 }
 
+.b-popup button{
+    font-family: 'Rubik Mono One', sans-serif;
+}
 
 
 .col-lg-12 a{
@@ -1179,15 +1202,15 @@ transform: scale(1.3);
     {
 
 .b-container{
-width:50%;
-height:5%;
-margin:0 auto;
-font-size:20px;
-color: #fff;
-padding:11px;
-float:left;
-margin: 0 auto; 
-text-align: center;
+    width:50%;
+    height:5%;
+    margin:0 auto;
+    font-size:20px;
+    color: #fff;
+    padding:11px;
+    float:left;
+    margin: 0 auto; 
+    text-align: center;
 
 
 }
@@ -1228,14 +1251,21 @@ transform: scale(1.1);
 
 }
 
-@media (max-width:440px){
+@media (max-width:438px){
+
+    .b-container{
+        font-size: 29px;
+        padding-left:20px;}
+
+    } 
+
+@media (width:438px){
 
     .b-container{
         font-size: 25px;
         padding-left:20px;}
 
     } 
-
 
 
 
