@@ -56,8 +56,8 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title_small = "Туристическая фирма в"
-		title_big = "городе Вунгтау"
+		title_small = "Туристическая фирма"
+		title_big = "в городе Вунгтау"
 		subtitle_1 = "Организация экскурсионных туров"
 		subtitle_2 = "Индивидуальные и груповые программы"
 		subtitle_3 = "Визовая поддержка и трансферы"
