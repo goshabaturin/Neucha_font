@@ -95,12 +95,13 @@ h2, h4, .text-muted-mine{
 
 .opacity_bg{
     width:auto;
-    max-width: 40%;
+    max-width: 60%;
     height:auto;
     background-color:#fff;
     opacity: 0.95;
     border-radius: 20px;
 }
+
 
 
 .modal-body p,ul{
