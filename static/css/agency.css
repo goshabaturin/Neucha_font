@@ -76,34 +76,6 @@ h2, h4{
     
 
 }
-.mine {
-    font-family: 'Neucha', cursive;
-    font-style:  italic;
-    font-weight: normal;
-    text-shadow: none;
-    color:black;
-}
-.mine h4{
-    font-weight: normal;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    margin:10px;
-}
-
-.mine ul{
-    font-family: 'Neucha', cursive;
-    font-weight:500;
-}
-
-.opacity_bg{
-    width:auto;
-    max-width: 60%;
-    height:auto;
-    background-color:#fff;
-    opacity: 0.95;
-    border-radius: 20px;
-}
-
-
 
 .modal-body p,ul{
     font-family: 'Neucha', cursive;
@@ -874,6 +846,37 @@ section h3.section-subheading {
     }
 }
 
+
+.mine {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: normal;
+    text-shadow: none;
+    color:black;
+}
+.mine h4{
+    font-weight: normal;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    margin:10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
+.mine ul{
+    font-family: 'Neucha', cursive;
+    font-weight:500;
+}
+
+.opacity_bg{
+    width:auto;
+    max-width: 60%;
+    height:auto;
+    background-color:#fff;
+    opacity: 0.95;
+    border-radius: 20px;
+}
+
+
 #team{
     min-height: 80%;
     background-image:url(../img/team/1.jpg);
@@ -884,54 +887,45 @@ section h3.section-subheading {
     background-position: 50% 0%;
 }
 
-.team-member {
+.mine {
+    width:;
     margin-bottom: 50px;
     text-align: center;
     padding:10px;
 }
 
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-    float:left;
-    max-width:50%;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    padding:20px;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: normal;
-}
-
-@media (max-width: 1024px) {
 
 
-    .team-member img{
-        float:none;
-    }
-}
+
+
+
+
 
 @media (max-width: 700px) {
         .opacity_bg{
+            max-width:100%;
             width:100%;
+            background-color: #f7f7f7;
+            opacity:1;
+            margin-bottom: 0px;
 
         }
+
+        .mine{
+            width:100%;
+            
+
+
+        }
+
         #team {
-            background-attachment: scroll;
-            background-size: contain; 
+           background-image: none;
+           padding-bottom: 10px;
             
         }
-        .team-member
-        {
-            width:100%;
 
-
+        #team .container{
+            margin-bottom: 0;
         }
 }
 
