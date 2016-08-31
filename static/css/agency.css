@@ -923,7 +923,7 @@ section h3.section-subheading {
 
         }
         #team {
-            background-attachment: fixed;
+            background-attachment: scroll;
             background-position: 70% 0%;
         }
         .team-member
