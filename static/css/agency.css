@@ -924,7 +924,7 @@ section h3.section-subheading {
         }
         #team {
             background-attachment: scroll;
-            background-size: cover; 
+            background-size: contain; 
             
         }
         .team-member
