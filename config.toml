@@ -107,7 +107,6 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "1.jpg"
 			name = "Наталья Клокова"
-			position = "Основатель"
 			social = [
 				["fa-vk", "#"],
 				["fa-facebook", "#"],
