@@ -873,11 +873,20 @@ section h3.section-subheading {
     }
 }
 
-
+#team{
+    min-height: 80%;
+    background-image:url(../img/team/1.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    margin-top:30px; 
+    background-position: 50% 0%;
+}
 
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    padding:10px;
 }
 
 .team-member img {
@@ -894,7 +903,9 @@ section h3.section-subheading {
 }
 
 .team-member p {
-    margin-top: 0;
+    padding:20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: normal;
 }
 
 @media (max-width: 1024px) {
@@ -905,6 +916,29 @@ section h3.section-subheading {
     }
 }
 
+@media (max-width: 700px) {
+        .opacity_bg{
+            width:100%;
+
+        }
+        #team {
+            background-attachment: fixed;
+            background-position: 70% 0%;
+        }
+        .team-member
+        {
+            width:100%;
+
+
+        }
+}
+
+@media (max-width: 1924px) {
+     #team {
+            background-attachment: fixed;
+            background-position: 75% 0%;
+        }
+    }
 
 aside.clients img {
     margin: 50px auto;

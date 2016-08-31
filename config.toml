@@ -96,10 +96,11 @@ googleAnalytics = ""
         enable = true
 		title = "О Нас"
 		subtitle = "Какой-то текст Lorem ipsum dolor sit amet consectetur."
-		description_one = "Какой-то текст."
-		description_two = "Еще какой-то текст."
-		description_three = "И еще какой-то текст."
-		description_four = "И...., как вы думаете, что? Правильно! Какой-то текст!"
+		description_one = "Живет во Вьетнаме с 2003 года"
+		description_two = "Работает в туризме с 2007 года"
+		description_three = "Места работы - Ханой, Сайгон, Муйне, Вунгтау"
+		description_four = "Образование - востоковед, переводчик вьетнамского языка (ДВГУ, Восточный институт)"
+		description_five = "Идея переехать в Вунгтау появилась 5 лет назад, когда мы с мужем решили оставить шумное и переполненное туристами Муйне. Именно здесь, в провинции Бария - Вунгтау, Вы сможете погрузиться в настоящий, неиспорченный и аутентичный Вьетнам, с его южной культурой, дешевыми ценами и шикарной кухней. А мы поможем организовать Вам этот отдых"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
