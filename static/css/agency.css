@@ -923,9 +923,9 @@ section h3.section-subheading {
 
         }
         #team {
-            background-attachment: scroll;
+            background-attachment: fixed;
             background-position: 70% 0%;
-            background-size:contain;
+            z-index: -1;
         }
         .team-member
         {
