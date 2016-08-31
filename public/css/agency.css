@@ -65,10 +65,10 @@ h6 {
 
 <h4> - текст "Клокова Наталья"
 
-. text-muted-mine - текст "Основатель" 
+
 
 */
-h2, h4, .text-muted-mine{
+h2, h4{
     
     font-family: 'Rubik Mono One', sans-serif;
     color:#fed136;
@@ -76,7 +76,7 @@ h2, h4, .text-muted-mine{
     
 
 }
-.mine .text-muted-mine {
+.mine {
     font-family: 'Neucha', cursive;
     font-style:  italic;
     font-weight: normal;
@@ -465,7 +465,7 @@ header .intro-service-text {
     
     
     line-height: 22px;
-    text-shadow: 2px 0 black, 0 2px  black, -2px 0  black, 0 -1px  black;
+    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
     text-align: left;
 
 }
@@ -924,7 +924,8 @@ section h3.section-subheading {
         }
         #team {
             background-attachment: scroll;
-            background-position: 70% 0%;
+            background-size: cover; 
+            
         }
         .team-member
         {
