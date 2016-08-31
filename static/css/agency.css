@@ -404,10 +404,21 @@ header {
 
 }
 
+
+@font-face {
+    font-family: Docker; /* Имя шрифта */
+    src: url(Docker.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: unknown; /* Имя шрифта */
+    src: url(10076.ttf);
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Docker;
 
     
     
@@ -416,12 +427,12 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Docker;
     font-size: 22px;
     
     line-height: 22px;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    color:#fed136 ;
+    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    color:#fed136 ;*/
 
 }
 
@@ -433,11 +444,11 @@ header .intro-service-text {
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;/*услуг на главной */
+    font-family: Docker;/*услуг на главной */
     
     
     line-height: 22px;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
     text-align: left;
 
 }
@@ -450,41 +461,27 @@ header .intro-service-text ul{
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Docker;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color:#fed136 ;
+   /* color:#fed136 ;*/
     
 
 }
 
 header .intro-social{
-     margin-left:40%;
-     margin-top:7%;
+    margin-left:40%;
+    margin-top:7%;
     float:right;
     margin-bottom: 25px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 16px;
-    
-    line-height: 22px;
-    
+    line-height: 22px;   
     text-align: left;
 }
 
-@media(max-width: 768px){
-    header .intro-social {
-        float:none;
-        margin:0 auto;
-        margin-top:16%;
-        font-size: 20px;
-        text-align: center;
-    }
 
-     header .intro-text .intro-lead-in {
-        margin-top: 0.5%;
-     }
-}
 header ul.social-buttons li a {
     display: block;
     width: 40px;
@@ -504,6 +501,20 @@ header ul.social-buttons li a {
 }
 
 
+@media(max-width: 768px){
+    header .intro-social {
+        float:none;
+        margin:0 auto;
+        margin-top:16%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+     header .intro-text .intro-lead-in {
+        margin-top: 0.5%;
+     }
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 10%;
@@ -513,22 +524,22 @@ header ul.social-buttons li a {
     header .intro-text .intro-lead-in {
 
         margin-bottom: 25px;
-        font-family: 'Rubik Mono One', sans-serif;
+        font-family: Docker;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+        /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
 
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: 'Rubik Mono One', sans-serif;
+        font-family: Docker;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+        /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
     }
 }
 
@@ -848,10 +859,14 @@ section h3.section-subheading {
 
 
 .mine {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Docker;
     font-weight: normal;
     text-shadow: none;
     color:black;
+    width:;
+    margin-bottom: 50px;
+    text-align: center;
+    padding:10px;
 }
 .mine h4{
     font-weight: normal;
@@ -862,9 +877,25 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+@font-face {
+    font-family: inglobali; /* Имя шрифта */
+    src: url(inglobali.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:GetVoIPGrotesque;
+    src: url(GetVoIPGrotesque.otf); /* Путь к файлу со шрифтом */
+   }
+
 .mine ul{
-    font-family: 'Neucha', cursive;
-    font-weight:500;
+    font-family: unknown
+    padding:10px;
+    font-size:16pt;
+    
+}
+
+.mine p{
+    font-family: inglobali;
+    font-size:20pt;
 }
 
 .opacity_bg{
@@ -887,12 +918,8 @@ section h3.section-subheading {
     background-position: 50% 0%;
 }
 
-.mine {
-    width:;
-    margin-bottom: 50px;
-    text-align: center;
-    padding:10px;
-}
+
+
 
 
 
