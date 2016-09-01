@@ -4,14 +4,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: Docker; /* Имя шрифта */
+    src: url(Docker.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: inglobali; /* Имя шрифта */
+    src: url(inglobali.ttf); /* Путь к файлу со шрифтом */
+   }   
+
 body {
     overflow-x: hidden;
-    font-family: 'Rubik Mono One', sans-serif;
     background-color:#f7f7f7
 }
 
 .text-muted {
-    font-family: 'Neucha', cursive;
+    font-family: inglobali;
     color: #777;
 }
 
@@ -50,11 +59,11 @@ a.active {
 h1,
 h2,
 h3,
-h4,
+h4, /*Подзаголовки в "Безопасность", "Команда" и "График работы" */
 h5, /*название туров в превьющке - тег <h5>*/
 h6 {
     text-transform: uppercase;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: inglobali;
     font-weight: normal;
 }
 
@@ -69,22 +78,20 @@ h6 {
 
 */
 h2, h4{
-    
-    font-family: 'Rubik Mono One', sans-serif;
-    color:#fed136;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    
+    font-family: Docker;
+    } 
 
-}
+
 
 .modal-body p,ul{
-    font-family: 'Neucha', cursive;
-    font-weight:500;
+    font-family: inglobali; /* шрифт текста в турах (наши туры-> тур), кроме шрифта заголовка, подзаголовка и текста кнопки */
+    font-weight:700;
 }
 .modal-body button{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* шрифт текста кнопки "закрыть" в турах (наши туры-> тур) */
     font-weight: 200;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    color:black;
+    
 }
 
 
@@ -110,8 +117,6 @@ h2, h4{
 .btn-primary {
     border-color: #fed136;
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
-    font-weight: 700;
     color: #fff;
     background-color: #fed136;
 }
@@ -158,10 +163,12 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
+    margin-bottom: 20px;
     border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /* шрифт кнопок "отправить" и "заказать звонок" в сплывающих окнах*/
+
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -215,7 +222,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи */
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи, у нас вместо нее иконки соц.сетей*/
     /*color: #00cccc ;  #fed136 */
     color:#fed136 ;
 }
@@ -249,14 +256,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;/*шрифт правого меню */
-    font-style:  italic;
-     font-weight: bold;
-     
-
+    font-family: inglobali; /*шрифт правого меню (туры, о нас, контакты)*/
+    font-weight: bold;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fed136 ;
+    color: #fff ;
     text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
 }
 
@@ -405,20 +409,14 @@ header {
 }
 
 
-@font-face {
-    font-family: Docker; /* Имя шрифта */
-    src: url(Docker.ttf); /* Путь к файлу со шрифтом */
-   }
 
-@font-face {
-    font-family: unknown; /* Имя шрифта */
-    src: url(10076.ttf);
-}
+
+
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    font-family: Docker;
+    
 
     
     
@@ -427,88 +425,40 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-    font-family: Docker;
+    font-family: Docker; /* шрифт главного надзаголовка ("туристическая фирма" который)*/
     font-size: 22px;
-    
     line-height: 22px;
-    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    color:#fed136 ;*/
-
-}
-
-
-
-header .intro-service-text {
-    margin-left:40%;
-    float:right;
-    margin-bottom: 25px;
-    font-weight: 700;
-    font-size: 16px;
-    font-family: Docker;/*услуг на главной */
     
-    
-    line-height: 22px;
-    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
-    text-align: left;
 
-}
-
-header .intro-service-text ul{
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Docker;
+    font-family: Docker;/* шрифт главного заголовка ("в городе Вунгтау" который)*/
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-   /* color:#fed136 ;*/
+   
     
 
 }
 
-header .intro-social{
+
+header .intro-service-text ul {
     margin-left:40%;
-    margin-top:7%;
     float:right;
     margin-bottom: 25px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 22px;   
+    line-height: 22px;
     text-align: left;
-}
-
-
-header ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 12px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-    text-align: center;
-    display:table-cell;
-    vertical-align:bottom;
+    font-family: inglobali;/* шрифт услуг на главной ("организация экскурсионных туров" и тд) */
+    font-weight: 700;
 }
 
 
 @media(max-width: 768px){
-    header .intro-social {
-        float:none;
-        margin:0 auto;
-        margin-top:16%;
-        font-size: 20px;
-        text-align: center;
-    }
 
      header .intro-text .intro-lead-in {
         margin-top: 0.5%;
@@ -524,22 +474,19 @@ header ul.social-buttons li a {
     header .intro-text .intro-lead-in {
 
         margin-bottom: 25px;
-        font-family: Docker;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
+        
 
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Docker;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
     }
 }
 
@@ -561,9 +508,8 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /*Текст подзаголовка, например ("тут представленна лишь малая часть" в Наши туры) */
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -576,7 +522,8 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    font-family: 'Open Sans', sans-serif;/*услуг на главной */
+    font-family: inglobali;/* шрифт заголовков блоков "безопасность", "команда", "График работы" */
+
 }
 
 #portfolio .portfolio-item {
@@ -642,9 +589,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /*шрифт подзаголовка тура в привьюшке (там где "Уровень")*/
     font-size: 16px;
-    font-style: italic;
+    
 }
 
 #portfolio * {
@@ -859,7 +806,7 @@ section h3.section-subheading {
 
 
 .mine {
-    font-family: Docker;
+    font-family: Docker; /*Общий шрифт для всего блока про Наташу */
     font-weight: normal;
     text-shadow: none;
     color:black;
@@ -868,34 +815,19 @@ section h3.section-subheading {
     text-align: center;
     padding:10px;
 }
-.mine h4{
-    font-weight: normal;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
-    margin:10px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    text-transform: none;
-}
 
-@font-face {
-    font-family: inglobali; /* Имя шрифта */
-    src: url(inglobali.ttf); /* Путь к файлу со шрифтом */
-   }
-@font-face {
-    font-family:GetVoIPGrotesque;
-    src: url(GetVoIPGrotesque.otf); /* Путь к файлу со шрифтом */
-   }
 
 .mine ul{
-    font-family: unknown
+    font-family: inglobali; /*Шрифт списка в блоке про Наташу */
     padding:10px;
     font-size:16pt;
     
 }
 
 .mine p{
-    font-family: inglobali;
+    font-family: inglobali; /* Шрифт текста после списка в блоке про Наташу */
     font-size:20pt;
+    padding:10px;
 }
 
 .opacity_bg{
@@ -1030,28 +962,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali;
     font-weight: 700;
     color: #bbb;
 }
@@ -1068,7 +1000,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /*шрифт текста Vungtautravel.ru в футере */
     line-height: 40px;
 }
 
@@ -1076,8 +1008,9 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-   font-family: 'Neucha', cursive;
+   font-family: inglobali; /*шрифт текста "создано На Берегу" в футере */
     line-height: 40px;
+
 }
 
 ul.social-buttons {
@@ -1134,9 +1067,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /* Шрифт подзаголовка в туре (наши туры -> тур) */
     font-size: 16px;
-    font-style: italic;
+    
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -1226,10 +1159,19 @@ body {
     float:left;
     margin: 0 auto; 
     text-align: center;
-    font-family: 'Neucha', cursive;
+    font-family: inglobali; /* Шрифт кнопок "Написать" и "Заказать Звонок"*/
     font-weight: bold;
-    color:#fed136;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    /*цвет не меняется, потому что на самом деле это ссылки и надо в начале файла 
+    поменять цвет в теге <a>, но если это сделать, то тогда ссылка "Серф и сап туры" 
+    перестанет подсвечиваться так что единственный вариант, это выносить вот такой стиль:
+    
+    .b-container a{
+            color:#whatever;
+        }
+
+    */
+    
+    
 
 
     }
@@ -1256,9 +1198,10 @@ transform: scale(1.3);
     background-color: rgba(0,0,0,0.5);
     overflow:hidden;
     position:fixed;
-    top:10%;
+    top:5%;
     left:0;
     padding-top:10%;
+
 
     
 
@@ -1266,12 +1209,9 @@ transform: scale(1.3);
 #popup1{
     display:none;
 }
-.b-popup button{
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: normal;
-}
+
 .b-popup input, textarea{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* шрифт текста в полях форм ввода, этот шрифт оптимален, потому как подогнан под все окошки*/
     font-size: 0.9em;
 }
 .col-lg-12 a{
@@ -1321,7 +1261,7 @@ transform: scale(1.1);
     background-color: rgba(0,0,0,0.5);
     overflow:hidden;
     position:fixed;
-    top:10%;
+    top:7%;
     
     
     }
