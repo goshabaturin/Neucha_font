@@ -972,7 +972,9 @@ section#contact .form-group input.form-control {
 section#contact .form-group textarea.form-control {
     height: 236px;
 }
-
+ section#contact .form-group li {
+    color:#33ccff;
+ } 
 @media (max-width: 982px){
 
     section#contact .form-group {

@@ -453,7 +453,8 @@
                         <a href="javascript:PopUpHide_second();" > <img src="img/close-btn.png"> </a>
                             <form  action="//formspree.io/g1042582@mvrht.com" method="POST" name="sentMessage" id="contactForm" novalidate>
                                 <div class="row">
-                                    
+                                        <input type="hidden" name="Заказ звонка" value="Перезвоните мне пожалуйста" >
+
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Как к Вам обращаться *" name="Имя" required data-validation-required-message="Представьтесь, пожалуйста.">
                                             <p class="help-block text-danger"></p>
@@ -464,11 +465,12 @@
                                             <p class="help-block text-danger"></p>
                                         </div>
                                         <div class="form-group">
-                                            <input type="radio" name="Viber" value="male" checked> Viber<br>
-                                            <input type="radio" name="WhatssApp" value="female"> WhatsApp<br>
-                                             <input type="radio" name="Телефон" value="other"> Телефон
+                                            <ul class='list-inline'>
+                                            <li><input type="radio" name="Куда перезвонить: " value="на Viber"> Viber</li>
+                                            <li><input type="radio" name="Куда перезвонить: " value="на WhatssApp" checked> WhatsApp</li>
+                                            <li><input type="radio" name="Куда перезвонить: " value="на телефон" > Телефон</li>
                                          </div>
-                                            <input type="hidden" name="Заказ звонка" value="Перезвоните мне пожалуйста" >
+                                            
                                         
                                         <input type="hidden" name="_next" value="https://goshabaturin.github.io/Neucha_font/public/" />
                                         <div class="clearfix"></div>
