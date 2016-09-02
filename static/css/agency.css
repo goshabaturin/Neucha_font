@@ -438,10 +438,10 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: helveticaneuecyr;/* шрифт главного заголовка ("в городе Вунгтау" который)*/
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
    
