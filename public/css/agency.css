@@ -13,6 +13,11 @@
     font-family: inglobali; /* Имя шрифта */
     src: url(inglobali.ttf); /* Путь к файлу со шрифтом */
    }   
+   
+@font-face {
+    font-family: helveticaneuecyr;
+    src: url(helveticaneuecyr.otf); /* Путь к файлу со шрифтом */
+   }   
 
 body {
     overflow-x: hidden;
@@ -256,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: inglobali; /*шрифт правого меню (туры, о нас, контакты)*/
+    font-family: inglobali; /* шрифт правого меню (туры, о нас, контакты) */
     font-weight: bold;
     font-weight: 400;
     letter-spacing: 1px;
@@ -425,7 +430,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-top: 7%;
     margin-bottom: 25px;
-    font-family: Docker; /* шрифт главного надзаголовка ("туристическая фирма" который)*/
+    font-family: helveticaneuecyr; /* шрифт главного надзаголовка ("туристическая фирма" который)*/
     font-size: 22px;
     line-height: 22px;
     
@@ -435,7 +440,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Docker;/* шрифт главного заголовка ("в городе Вунгтау" который)*/
+    font-family: helveticaneuecyr;/* шрифт главного заголовка ("в городе Вунгтау" который)*/
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
