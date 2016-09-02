@@ -21,27 +21,27 @@
 
 @font-face {
     font-family: pragmaticacbold;
-    src: url(pragmaticac-bold.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/pragmaticac-bold.otf); /* Путь к файлу со шрифтом */
    } 
 
 @font-face {
     font-family: pragmaticacbolditalic;
-    src: url(pragmaticac-bolditalic.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/pragmaticac-bolditalic.otf); /* Путь к файлу со шрифтом */
    } 
 
 @font-face {
     font-family: pragmaticacitalic;
-    src: url(pragmaticac-italic.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/pragmaticac-italic.otf); /* Путь к файлу со шрифтом */
    } 
 
 @font-face {
     font-family: pragmaticac;
-    src: url(pragmaticac.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/pragmaticac.otf); /* Путь к файлу со шрифтом */
    } 
 
 @font-face {
     font-family: pragmaticalightc.otf;
-    src: url(pragmaticalightc.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/pragmaticalightc.otf); /* Путь к файлу со шрифтом */
    } 
 
 body {
