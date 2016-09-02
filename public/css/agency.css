@@ -121,7 +121,8 @@ h2, h4{
     font-family: 'Open Sans', sans-serif; /* шрифт текста кнопки "закрыть" в турах (наши туры-> тур) */
     font-weight: 200;
     color:black;
-    
+    background-color: #33ccff;
+    border: none;
 }
 
 
@@ -144,11 +145,15 @@ h2, h4{
     background-color: #222;
 }
 
-.btn-primary {
-    border-color: #fed136;
+/* кнопка "Наш инстаграмм"*/
+a .btn-primary {
+    margin-top:15px;
+    padding:0 auto;
+    border-color: #33ccff;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #fed136;
+    color: black;
+    background-color: #33ccff;
+    font-family: helveticaneuecyr;
 }
 
 .btn-primary:hover,
@@ -156,9 +161,9 @@ h2, h4{
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #33ccff;
     color: #fff;
-    background-color: #fec503;
+    background-color: #33ccff;
 }
 
 .btn-primary:active,
@@ -271,8 +276,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #33ccff;
+    background-color: #33ccff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -281,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #33ccff;
 }
 
 .navbar-default .nav li a {
@@ -289,7 +294,6 @@ fieldset[disabled] .btn-xl.active {
     font-family: pragmaticacbold, sans-serif !important; /* шрифт правого меню (туры, о нас, контакты) */
     font-weight: bold;
     font-weight: 700;
-    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
     letter-spacing: 1px;
     color: #fff ;
     
@@ -334,7 +338,7 @@ fieldset[disabled] .btn-xl.active {
 ul.social-buttons-nav>li:hover,
 ul.social-buttons-nav>li:focus{
 
-    background-color:#01B7DA ;/*CAE0E3;*/
+    background-color:#01B7DA ;
     border-radius: 100%;
 }
 
@@ -578,7 +582,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(51,204,255,.8); /* цвет затемнения на туре в "Наши туры", с прозрачностью 20% (opacity=0.8); */
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -849,19 +853,20 @@ section h3.section-subheading {
     margin-bottom: 50px;
     text-align: center;
     padding:10px;
+
 }
 
 
 .mine ul{
-    font-family: inglobali; /*Шрифт списка в блоке про Наташу */
+    font-family: pragmaticac, sans-serif !important; /*Шрифт списка в блоке про Наташу */
     padding:10px;
-    font-size:16pt;
+    font-size:14pt;
     
 }
 
 .mine p{
-    font-family: inglobali; /* Шрифт текста после списка в блоке про Наташу */
-    font-size:20pt;
+    font-family: pragmaticac, sans-serif !important; /* Шрифт текста после списка в блоке про Наташу */
+    font-size:14pt;
     padding:10px;
 }
 
@@ -1197,8 +1202,8 @@ body {
     float:left;
     margin: 0 auto; 
     text-align: center;
-    font-family: inglobali; /* Шрифт кнопок "Написать" и "Заказать Звонок"*/
-    font-weight: bold;
+    font-family: helveticaneuecyr; /* Шрифт кнопок "Написать" и "Заказать Звонок"*/
+    
     /*цвет не меняется, потому что на самом деле это ссылки и надо в начале файла 
     поменять цвет в теге <a>, но если это сделать, то тогда ссылка "Серф и сап туры" 
     перестанет подсвечиваться так что единственный вариант, это выносить вот такой стиль:
@@ -1333,6 +1338,8 @@ transform: scale(1.1);
 
     } 
 
+
+ 
 
 
 
