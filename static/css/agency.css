@@ -114,8 +114,8 @@ h2, h4{
 
 
 .modal-body p,ul{
-    font-family: inglobali; /* шрифт текста в турах (наши туры-> тур), кроме шрифта заголовка, подзаголовка и текста кнопки */
-    font-weight:700;
+    font-family: pragmaticac; /* шрифт текста в турах (наши туры-> тур), кроме шрифта заголовка, подзаголовка и текста кнопки */
+    font-weight:400;
 }
 .modal-body button{
     font-family: 'Open Sans', sans-serif; /* шрифт текста кнопки "закрыть" в турах (наши туры-> тур) */
@@ -860,13 +860,13 @@ section h3.section-subheading {
 .mine ul{
     font-family: pragmaticac, sans-serif !important; /*Шрифт списка в блоке про Наташу */
     padding:10px;
-    font-size:14pt;
+    font-size:10pt;
     
 }
 
 .mine p{
     font-family: pragmaticac, sans-serif !important; /* Шрифт текста после списка в блоке про Наташу */
-    font-size:14pt;
+    font-size:10pt;
     padding:10px;
 }
 
@@ -1097,7 +1097,7 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    
+
 }
 
 .portfolio-modal .modal-content h2 {
