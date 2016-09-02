@@ -19,6 +19,31 @@
     src: url(helveticaneuecyr.otf); /* Путь к файлу со шрифтом */
    }   
 
+@font-face {
+    font-family: pragmaticacbold;
+    src: url(pragmaticac-bold.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticacbolditalic;
+    src: url(pragmaticac-bolditalic.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticacitalic;
+    src: url(pragmaticac-italic.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticac;
+    src: url(pragmaticac.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticalightc.otf;
+    src: url(pragmaticalightc.otf); /* Путь к файлу со шрифтом */
+   } 
+
 body {
     overflow-x: hidden;
     background-color:#f7f7f7
@@ -261,30 +286,31 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: inglobali; /* шрифт правого меню (туры, о нас, контакты) */
+    font-family: pragmaticacbold, sans-serif !important; /* шрифт правого меню (туры, о нас, контакты) */
     font-weight: bold;
-    font-weight: 400;
+    font-weight: 700;
+    /*text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;*/
     letter-spacing: 1px;
     color: #fff ;
-    text-shadow: 1px 0 black, 0 1px  black, -1px 0  black, 0 -1px  black;
+    
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #33ccff; /*#fed136;*/ /* цвет не текущего пункта меню при наведении*/
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #33ccff; /* заливка вокруг текущего пункта меню, например вокруг "Туры" при нахождении в сексии "Наши туры"*/
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503;
+    color: #33ccff; /* Цвет текста пункта меню (см .navbar-default .navbar-nav>.active>a) при наведении  */
+    background-color: #222; /* заливка вокуруг пункта меню(см .navbar-default .navbar-nav>.active>a), при наведении */
 }
 
  ul.social-buttons-nav>li>a {
