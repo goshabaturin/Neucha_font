@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи, у нас вместо нее иконки соц.сетей*/
     /*color: #00cccc ;  #fed136 */
-    color:#fed136 ;
+    color:#fff ; /* цвет социальных иконок в меню в спокойном состоянии */
 }
 
 
@@ -263,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #FFFE0F;/*#2A3B65;*/
+    color: #fff;/*#2A3B65;*/
 }
 
 .navbar-default .navbar-collapse {
