@@ -886,8 +886,11 @@ section h3.section-subheading {
 }
 
 
-
-
+/* переопеределение заднего фона иконок " безопасность", "команда", "график работы" */
+.fa-stack-1x{
+    background-color: #33ccff;
+    border-radius: 100%;
+}
 
 
 
@@ -1060,7 +1063,7 @@ ul.social-buttons li a {
     font-size: 16px;
     line-height: 40px;
     outline: 0;
-    color: #FFFE0F;
+    color: #FFF;
     background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -1210,6 +1213,10 @@ body {
 
 
     }
+
+        .b-container a{
+            color:#fff;
+        }
 
 
 .b-container:hover{
