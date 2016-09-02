@@ -116,6 +116,7 @@ h2, h4{
 .modal-body p,ul{
     font-family: pragmaticac; /* шрифт текста в турах (наши туры-> тур), кроме шрифта заголовка, подзаголовка и текста кнопки */
     font-weight:400;
+    font-style:normal;
 }
 .modal-body button{
     font-family: 'Open Sans', sans-serif; /* шрифт текста кнопки "закрыть" в турах (наши туры-> тур) */
