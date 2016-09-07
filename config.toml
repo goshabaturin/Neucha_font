@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://goshabaturin.github.io/Neucha_font/public/"
 languageCode = "ru"
-title = "Название"
+title = "Турфирма Вунгтау"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -31,7 +31,8 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "g1042582@mvrht.com"
+
+	email = "shestaklokova@mail.ru "
 
     # Link custom assets relative to /static
     custom_css = []
@@ -49,6 +50,10 @@ googleAnalytics = ""
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
+     [[menu.postpend]]
+        url = "http://google.com"
+        name = "<img src='../img/Kazakhstan.png' style='width:25px;  margin-top:-5px'>"
+        weight = 1
 
 
 
@@ -57,7 +62,7 @@ googleAnalytics = ""
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title_small = "Туристическая фирма"
-		title_big = "в городе Вунгтау"
+		title_big = "Вунгтау"
 		subtitle_1 = "Организация экскурсионных туров"
 		subtitle_2 = "Индивидуальные и груповые программы"
 		subtitle_3 = "Визовая поддержка и трансферы"
@@ -82,7 +87,7 @@ googleAnalytics = ""
 		# For more informtion take a look at the README.
 
 		title = "Наши туры"
-		subtitle = "Тут представленна лишь малая часть из всего того удивительного и интересного, на что стоит посмотреть во Вьетнаме"
+		subtitle = ""
 
 		[params.portfolio.modal]
             
@@ -99,7 +104,7 @@ googleAnalytics = ""
 		description_two = "Работает в туризме с 2007 года"
 		description_three = "Места работы - Ханой, Сайгон, Муйне, Вунгтау"
 		description_four = "Образование - востоковед, переводчик вьетнамского языка (ДВГУ, Восточный институт)"
-		description_five = "Идея переехать в Вунгтау появилась 5 лет назад, когда мы с мужем решили оставить шумное и переполненное туристами Муйне. Именно здесь, в провинции Бария - Вунгтау, Вы сможете погрузиться в настоящий, неиспорченный и аутентичный Вьетнам, с его южной культурой, дешевыми ценами и шикарной кухней. А мы поможем организовать Вам этот отдых"
+		description_five = "Идея переехать в Вунгтау появилась 5 лет назад, когда мы с мужем решили оставить шумное и переполненное туристами Муйне. Именно здесь, в провинции Бария - Вунгтау, Вы сможете погрузиться в настоящий, неиспорченный и аутентичный Вьетнам, с его южной культурой, дешевыми ценами и шикарной кухней. А мы поможем организовать Вам этот отдых."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
@@ -119,20 +124,21 @@ googleAnalytics = ""
 
         [[params.services.row]]
 
-            [[params.services.row.list]]
-                icon = "fa-thumbs-o-up"
-                title = "Безопасность"
-                description = "Вьетнам — одно из самых безопасных мест в Азии (а Ханой — один из самых безопасных городов мира)."               
-
-            [[params.services.row.list]]
+        	[[params.services.row.list]]
                 icon = "fa-users"
                 title = "Команда"
                 description = "Наша команда состоит из профессионалов своего дела, которые действительно любят Въетнам и готовы открыть его Вам с неожиданной стороны."
 
             [[params.services.row.list]]
+                icon = "fa-thumbs-o-up"
+                title = "Безопасность"
+                description = "Вьетнам - одна из самых безопасных стран в Азии.<br> Вунгтау - является курортом № 1 в стране (рейтинг внутреннего туризма).<br> Трансфер - управление транспортом мы доверяем только опытным водителям с большим стажем"               
+
+
+            [[params.services.row.list]]
                 icon = "fa-calendar"
-                title = "График работы"
-                description = "Мы работаем в курортный сезон, с октября по май. С мая по октябрь во Въетнаме сезон дождей."
+                title = "Календарь"
+                description = "Мы рады встретить Вас в сухой сезон. С июля по октябрь на юге Вьетнама сезон дождей."
 
 	
 
@@ -173,7 +179,7 @@ googleAnalytics = ""
 		copyright = "©  Vungtautravel.ru"
 		author = 'Создано "На берегу"'	
 		author_link= "https://vk.com/id5069580"	
-		phone = '+8(914)-000-00-00'
+		phone = '+8(490)243-17-56 '
 
 
 			

@@ -61,6 +61,10 @@
                 </li>
                 {{ end }}
 
+                <li>
+                    <a  href="{{ with .Site.Params.navigation.KZ_url }}{{ . | markdownify }}{{ end }}">{{ with .Site.Params.navigation.KZ }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+
                 {{ range .Site.Menus.postpend }}
                 <li>
                     <a href="{{ .URL }}">{{ .Name | markdownify }}</a>

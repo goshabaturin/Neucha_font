@@ -105,12 +105,15 @@ h6 {
 <h4> - текст "Клокова Наталья"
 
 
-
 */
 h2, h4{
     font-family: helveticaneuecyr;
     } 
 
+h5{
+    font-family: pragmaticacbold, sans-serif !important; /*текст названий туров в превьюшке*/
+    font-size: 12px;
+}
 
 
 .modal-body p,ul{
@@ -464,6 +467,7 @@ header .intro-text .intro-lead-in {
     font-family: pragmaticacbold, sans-serif !important; /* шрифт главного надзаголовка ("туристическая фирма" который)*/
     font-size: 22px; /*Размер шрифта в мобильных версяих, менять вместе с line-height*/
     line-height: 22px;
+    text-shadow: 0 0 2px black;
     
 
 }
@@ -475,6 +479,8 @@ header .intro-text .intro-heading {
     font-size: 50px;/*Размер шрифта в мобильных версяих, менять вместе с line-height*/
     font-weight: 700;
     line-height: 50px;
+    text-shadow: 0 0 2px black;
+
    
     
 
@@ -486,11 +492,12 @@ header .intro-service-text ul {
     float:right;
     margin-bottom: 25px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 22px;
     text-align: left;
     font-family: pragmaticac;/* шрифт услуг на главной ("организация экскурсионных туров" и тд) */
     font-weight: 400;
+    text-shadow: 0 0 2px black;
 }
 
 
@@ -503,6 +510,10 @@ header .intro-service-text ul {
      header .intro-text .intro-lead-in {
         margin-top: 0.5%;
      }
+
+     header .intro-service-text ul {
+        font-size: 16px;
+    }
 }
 
 @media(min-width:768px) {
@@ -576,6 +587,7 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
