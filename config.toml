@@ -52,7 +52,7 @@ googleAnalytics = ""
 
      [[menu.postpend]]
         url = "http://google.com"
-        name = "<img src='../img/Kazakhstan.png' style='width:25px;  margin-top:-5px'>"
+        name = "<img src='img/Kazakhstan.png' style='width:25px;  margin-top:-5px'>"
         weight = 1
 
 
