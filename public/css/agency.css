@@ -949,6 +949,14 @@ section h3.section-subheading {
         }
 }
 
+@media(max-width: 768px){
+
+
+    #team {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 1924px) {
      #team {
             background-attachment: fixed;
