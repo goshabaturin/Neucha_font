@@ -27,7 +27,7 @@
 
 @media(max-width: 320px){
 	.unslider {
-    width: 60% !important;
+    width: 100% !important;
 	position: relative;
 	overflow: auto;
 
@@ -41,7 +41,7 @@
 
 @media(max-width: 480px){
 	.unslider {
-    max-width: 60% !important;
+    max-width: 90% !important;
 	position: relative;
 	overflow: auto;
 
