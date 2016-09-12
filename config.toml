@@ -83,11 +83,11 @@ googleAnalytics = ""
         enable = true
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-		# at the root of this Hugo site.
+		# at the root of this site.
 		# For more informtion take a look at the README.
 
 		title = "Наши туры"
-		subtitle = ""
+		subtitle = "Мы подарим Вам эмоцию"
 
 		[params.portfolio.modal]
             

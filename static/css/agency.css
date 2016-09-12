@@ -564,7 +564,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: inglobali; /*Текст подзаголовка, например ("тут представленна лишь малая часть" в Наши туры) */
+    font-family: OpenSans, sans-serif !important; /*Текст подзаголовка, например ("тут представленна лишь малая часть" в Наши туры) */
     font-size: 16px;
     font-weight: 400;
 }
