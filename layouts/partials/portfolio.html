@@ -40,11 +40,16 @@
 
         <div class='row text-center' >
             <div class="my-slider " >
+            
+            {{ if .Site.Params.gallery.enable }}
+                
                 <ul>
-                    <li> <img src="http://lorempixel.com/800/600/nature/5"></li>
-                    <li> <img src="http://lorempixel.com/800/600/nature/2"></li>
-                    <li> <img src="http://lorempixel.com/800/600/nature/3"></li>
+                    {{ range .Site.Params.gallery.img }}
+                    <li> <img src="img/gallery/{{.img}}"></li>
+                    {{ end }}    
                 </ul>
+
+            {{end}}    
             </div>
 
            <a href='{{with .Site.Params.hero.insagram_link}}{{ . | markdownify }}{{ end }}' > <button class='btn btn-primary' >  Наш Instagram </button></a>

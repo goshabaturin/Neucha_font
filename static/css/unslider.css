@@ -22,7 +22,7 @@
 }
 
 .unslider img {
-    width: 100%;
+    width: 100% !important;
 }
 
 @media(max-width: 320px){

@@ -94,6 +94,55 @@ googleAnalytics = ""
             buttonText = "Закрыть"
 
 
+    #Gallery section
+	[params.gallery]
+		enable =true
+
+		[[params.gallery.img]]
+			img="gallery_1.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_2.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_3.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_5.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_6.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_7.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_8.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_9.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_10.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_11.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_12.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_13.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_14.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_15.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_16.jpg"
+
 
 	# Team section
 	[params.team]
@@ -116,6 +165,9 @@ googleAnalytics = ""
 				["fa-facebook", "#"],
 				["fa-instagram", "#"]
 			]
+
+	
+
 
 	# Services section
 	[params.services]
