@@ -147,7 +147,7 @@ googleAnalytics = ""
 			img="gallery_17.jpg"
 
 		[[params.gallery.img]]
-			img="gallery_18.JPG"
+			img="gallery_18.jpg"
 
 		[[params.gallery.img]]
 			img="gallery_19.jpg"
@@ -155,8 +155,6 @@ googleAnalytics = ""
 		[[params.gallery.img]]
 			img="gallery_20.jpg"
 
-		[[params.gallery.img]]
-			img="gallery_21.jpg"
 
 	# Team section
 	[params.team]
