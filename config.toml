@@ -143,6 +143,20 @@ googleAnalytics = ""
 		[[params.gallery.img]]
 			img="gallery_16.jpg"
 
+		[[params.gallery.img]]
+			img="gallery_17.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_18.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_19.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_20.jpg"
+
+		[[params.gallery.img]]
+			img="gallery_21.jpg"
 
 	# Team section
 	[params.team]
