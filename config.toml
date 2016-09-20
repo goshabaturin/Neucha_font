@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost"
+baseurl = "https://goshabaturin.github.io/VungtauTravel/public/"
 languageCode = "ru"
 title = "Турфирма Вунгтау"
 theme = "hugo-agency-theme"
