@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/VungtauTravel/public/"
+baseurl = "http://localhost"
 languageCode = "ru"
 title = "Турфирма Вунгтау"
 theme = "hugo-agency-theme"
@@ -62,7 +62,7 @@ googleAnalytics = ""
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title_small = "Туристическая фирма"
-		title_big = "Вунгтау"
+		title_big = "VUNG TAU TRAVEL"
 		subtitle_1 = "Организация экскурсионных туров"
 		subtitle_2 = "Индивидуальные и груповые программы"
 		subtitle_3 = "Визовая поддержка и трансферы"
