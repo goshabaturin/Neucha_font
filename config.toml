@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://goshabaturin.github.io/VungtauTravel/public/"
+baseurl = "https://goshabaturin.github.io/VungtauTravel/public"
 languageCode = "ru"
 title = "Турфирма Вунгтау"
 theme = "hugo-agency-theme"
@@ -51,7 +51,7 @@ googleAnalytics = ""
     # below and replace the values with your own.
 
      [[menu.postpend]]
-        url = "http://google.com"
+        url = "temp_page.html"
         name = "<img src='img/Kazakhstan.png' style='width:50px;  margin-top:-15px; padding:0;'>"
         weight = 1
 
