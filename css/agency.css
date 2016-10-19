@@ -1,0 +1,1368 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+    font-family: Docker; /* Имя шрифта */
+    src: url(Docker.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: inglobali; /* Имя шрифта */
+    src: url(inglobali.ttf); /* Путь к файлу со шрифтом */
+   }   
+
+@font-face {
+    font-family: helveticaneuecyr;
+    src: url(helveticaneuecyr.otf); /* Путь к файлу со шрифтом */
+   }   
+
+@font-face {
+    font-family: pragmaticacbold;
+    src: url(fonts/pragmaticac-bold.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticacbolditalic;
+    src: url(fonts/pragmaticac-bolditalic.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticacitalic;
+    src: url(fonts/pragmaticac-italic.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticac;
+    src: url(fonts/pragmaticac.otf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: pragmaticalightc.otf;
+    src: url(fonts/pragmaticalightc.otf); /* Путь к файлу со шрифтом */
+   } 
+
+body {
+    overflow-x: hidden;
+    background-color:#f7f7f7
+}
+
+.text-muted {
+    font-family: inglobali;
+    color: #777;
+}
+
+.text-primary {
+    color: #fed136;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #fed136;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4, /*Подзаголовки в "Безопасность", "Команда" и "График работы" */
+h5, /*название туров в превьющке - тег <h5>*/
+h6 {
+    text-transform: uppercase;
+    font-family: inglobali;
+    font-weight: normal;
+}
+
+
+/* 
+
+<h2> - название секций (например "Наши туры") и название туров и клике на них (например "Дворец независимости" вверху); название туров в превьющке - тег <h5> 
+
+<h4> - текст "Клокова Наталья"
+
+
+*/
+h2, h4{
+    font-family: helveticaneuecyr;
+    } 
+
+h5{
+    font-family: pragmaticacbold, sans-serif !important; /*текст названий туров в превьюшки*/
+    font-size: 12px;
+}
+
+
+.modal-body p,ul{
+    font-family: pragmaticac; /* шрифт текста в турах (наши туры-> тур), кроме шрифта заголовка, подзаголовка и текста кнопки */
+    font-weight:400;
+    font-style:normal;
+}
+.modal-body button{
+    font-family: 'Open Sans', sans-serif; /* шрифт текста кнопки "закрыть" в турах (наши туры-> тур) */
+    font-weight: 200;
+    color:black;
+    background-color: #33ccff;
+    border: none;
+}
+
+
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-light-gray-padding-top-0 {
+    padding-top: 0;
+    padding-bottom: 5em;
+}
+
+@media (max-width: 700px){
+    .bg-light-gray-padding-top-0 {
+        padding-bottom: 0;
+    }
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+/* кнопка "Наш инстаграмм"*/
+a .btn-primary {
+    margin-top:15px;
+    padding:0 auto;
+    border-color: #33ccff;
+    text-transform: uppercase;
+    color: black;
+    background-color: #33ccff;
+    font-family: helveticaneuecyr;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #33ccff;
+    color: #fff;
+    background-color: #33ccff;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: helveticaneuecyr; /* шрифт кнопок "отправить" и "заказать звонок" в сплывающих окнах*/
+    border-color: #33ccff;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background-color: #33ccff;
+    
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #33ccff;
+    color: #fff;
+    background-color: #33ccff;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; /*текст брендовой записи, у нас вместо нее иконки соц.сетей*/
+    /*color: #00cccc ;  #fed136 */
+    color:#fff ; /* цвет социальных иконок в меню в спокойном состоянии */
+}
+
+
+/* цвет иконок социальных сетей в меню при наведении*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fff;/*#2A3B65;*/ /*цвет социальны иконок в меню при наведении*/
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #33ccff;
+    background-color: #33ccff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #33ccff;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: pragmaticacbold, sans-serif !important; /* шрифт правого меню (туры, о нас, контакты) */
+    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff ;
+    
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #33ccff; /*#fed136;*/ /* цвет не текущего пункта меню при наведении*/
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #33ccff; /* заливка вокруг текущего пункта меню, например вокруг "Туры" при нахождении в сексии "Наши туры"*/
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #33ccff; /* Цвет текста пункта меню (см .navbar-default .navbar-nav>.active>a) при наведении  */
+    background-color: #222; /* заливка вокуруг пункта меню(см .navbar-default .navbar-nav>.active>a), при наведении */
+}
+
+ ul.social-buttons-nav>li>a {
+
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 20px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    
+    
+}
+
+/* изменение цвета при наведении на социальные иконки в меню*/
+ul.social-buttons-nav>li:hover,
+ul.social-buttons-nav>li:focus{
+
+    background-color:#01B7DA ;
+    border-radius: 100%;
+}
+
+ul.list-inline-nav{
+  margin-left: -13em;
+  padding-left: 0;
+  /*margin-left: -15px;*/
+  list-style: none;
+}
+
+@media (max-width: 770px){
+    ul.list-inline-nav{
+          
+          padding-left: 0;
+          margin-left: -15px;
+          list-style: none;
+    }
+
+
+}
+
+@media (max-width: 1024px){
+    ul.list-inline-nav{
+          
+          padding-left: 0;
+          margin-left: -15px;
+          list-style: none;
+    }
+
+
+}
+
+@media (max-width: 1450px){
+    ul.list-inline-nav{
+          
+          padding-left: 0;
+          margin-left: -15px;
+          list-style: none;
+    }
+
+
+}
+
+
+.list-inline-nav > li {
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 15px;
+  font-size: 10px;
+
+}
+
+
+
+@media(min-width:982px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    
+    background-attachment: fixed;
+    
+    background-color: #000;
+    opacity: 1;
+    background-position: 40% 100%;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+
+
+
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+    
+    
+}
+
+header .intro-text .intro-lead-in {
+    margin-top: 7%;
+    margin-bottom: 25px;
+    font-family: pragmaticacbold, sans-serif !important; /* шрифт главного надзаголовка ("туристическая фирма" который)*/
+    font-size: 22px; /*Размер шрифта в мобильных версяих, менять вместе с line-height*/
+    line-height: 22px;
+    text-shadow: 0 0 2px black;
+    
+
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: pragmaticacbold, sans-serif !important;/* шрифт главного заголовка ("в городе Вунгтау" который)*/
+    font-size: 50px;/*Размер шрифта в мобильных версяих, менять вместе с line-height*/
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: 0 0 2px black;
+
+   
+    
+
+}
+
+
+header .intro-service-text ul {
+    margin-left:40%;
+    float:right;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+    font-family: pragmaticac;/* шрифт услуг на главной ("организация экскурсионных туров" и тд) */
+    font-weight: 400;
+    text-shadow: 0 0 2px black;
+}
+
+
+@media(max-width: 768px){
+
+
+    header {
+        background-attachment: scroll;
+    }
+     header .intro-text .intro-lead-in {
+        margin-top: 0.5%;
+     }
+
+     header .intro-service-text ul {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 10%;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+
+        margin-bottom: 25px;
+        font-size: 40px;
+        
+        line-height: 40px;
+        
+
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-size: 60px; /*Размер шрифта в десктопных версяих, менять вместе с line-height*/
+        font-weight: 700;
+        line-height: 60px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section > #photo{
+    padding-top:0;
+}
+
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: OpenSans, sans-serif !important; /*Текст подзаголовка, например ("тут представленна лишь малая часть" в Наши туры) */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-family: inglobali;/* шрифт заголовков блоков "безопасность", "команда", "График работы" */
+
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(51,204,255,.8); /* цвет затемнения на туре в "Наши туры", с прозрачностью 20% (opacity=0.8); */
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: inglobali; /*шрифт подзаголовка тура в привьюшке (там где "Уровень")*/
+    font-size: 16px;
+    
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media(min-width:992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+
+.mine {
+    font-family: Docker; /*Общий шрифт для всего блока про Наташу */
+    font-weight: normal;
+    text-shadow: none;
+    color:black;
+    width:;
+    margin-bottom: 50px;
+    text-align: center;
+    padding:10px;
+
+}
+
+
+.mine ul{
+    font-family: pragmaticac, sans-serif !important; /*Шрифт списка в блоке про Наташу */
+    padding:10px;
+    font-size:10pt;
+    
+}
+
+.mine p{
+    font-family: pragmaticac, sans-serif !important; /* Шрифт текста после списка в блоке про Наташу */
+    font-size:10pt;
+    padding:10px;
+}
+
+.opacity_bg{
+    width:auto;
+    max-width: 60%;
+    height:auto;
+    background-color:#fff;
+    opacity: 0.95;
+    border-radius: 20px;
+}
+
+
+#team{
+    min-height: 80%;
+    background-image:url(../img/team/1.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    margin-top:30px; 
+    background-position: 50% 0%;
+}
+
+
+/* переопеределение заднего фона иконок " безопасность", "команда", "график работы" */
+.fa-stack-1x{
+    background-color: #33ccff;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+        .opacity_bg{
+            max-width:100%;
+            width:100%;
+            background-color: #f7f7f7;
+            opacity:1;
+            margin-bottom: 0px;
+
+        }
+
+        .mine{
+            width:100%;
+            
+
+
+        }
+
+        #team {
+           background-image: none;
+           padding-bottom: 10px;
+            
+        }
+
+        #team .container{
+            margin-bottom: 0;
+        }
+}
+
+
+
+@media (max-width: 1924px) {
+     #team {
+            background-attachment: fixed;
+            background-position: 75% 0%;
+        }
+    }
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    width:40%;
+    margin-top: 10px;
+    margin:0 auto;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+ section#contact .form-group li {
+    color:#33ccff;
+ } 
+@media (max-width: 982px){
+
+    section#contact .form-group {
+    width:60%;
+    margin-top: 10px;
+    margin:0 auto;
+    }
+    
+    section#contact .form-group textarea.form-control {
+    height: 60px;
+    }
+}
+
+@media (max-height: 415px){
+
+    section#contact .form-group {
+    width:45%;
+    height: 20%;
+    
+    padding-left: 10%;
+    float:left;
+    }
+
+
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: inglobali;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: inglobali;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: inglobali;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: inglobali;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: inglobali; /*шрифт текста Vungtautravel.ru в футере */
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+   font-family: inglobali; /*шрифт текста "создано На Берегу" в футере */
+    line-height: 40px;
+
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 16px;
+    line-height: 40px;
+    outline: 0;
+    color: #FFF;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color:#01B7DA ;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;  /*3em стояло. Уменьшает шрифт заголовка при открытии экскурсии */
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: inglobali; /* Шрифт подзаголовка в туре (наши туры -> тур) */
+    font-size: 16px;
+    
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #fed136;
+}
+
+
+
+
+
+
+
+.b-container{
+    width:100%;
+    height:5%;
+    margin:0 auto;
+    font-size:30px;
+    color: #fff;
+    padding:11px;
+    float:left;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: helveticaneuecyr; /* Шрифт кнопок "Написать" и "Заказать Звонок"*/
+    
+    /*цвет не меняется, потому что на самом деле это ссылки и надо в начале файла 
+    поменять цвет в теге <a>, но если это сделать, то тогда ссылка "Серф и сап туры" 
+    перестанет подсвечиваться так что единственный вариант, это выносить вот такой стиль:
+    
+    .b-container a{
+            color:#whatever;
+        }
+
+    */
+    
+    
+
+
+    }
+
+        .b-container a{
+            color:#fff;
+        }
+
+
+.b-container:hover{
+
+-webkit-transform: scale(1.3);
+ -ms-transform: scale(1.3);
+transform: scale(1.3);
+
+
+
+}
+
+.b-container a:hover{
+    text-decoration: none;
+ }
+
+
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:5%;
+    left:0;
+    padding-top:5%;
+}
+
+#popup1, #popup2{
+    display:none;
+}
+
+.b-popup input, textarea{
+    font-family: 'Open Sans', sans-serif; /* шрифт текста в полях форм ввода, этот шрифт оптимален, потому как подогнан под все окошки*/
+    font-size: 0.9em;
+}
+
+.b-popup-content .col-lg-12 a{
+    text-decoration: none;
+    padding-left:49%; 
+}
+
+.col-lg-12 img{
+    width:30pt;
+}
+
+@media (max-width:982px)
+    {
+
+.b-container{
+    width:100%;
+    height:5%;
+    margin:0 auto;
+    font-size:20px;
+    color: #fff;
+    padding:11px;
+    float:left;
+    margin: 0 auto; 
+    text-align: center;
+
+
+
+}
+
+.b-container:hover{
+
+ -webkit-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+transform: scale(1.1);
+
+
+
+}
+
+.b-container a:hover{
+    text-decoration: none;
+ }
+
+
+.b-popup{
+   
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:11%;
+    
+    
+    }
+
+
+@media (max-width: 568px){
+
+    .b-container{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:438px){
+
+    .b-container{
+        font-size: 29px;
+        padding-left:20px;}
+
+    } 
+
+@media (width:438px){
+
+    .b-container{
+        font-size: 25px;
+        padding-left:20px;}
+
+    } 
+
+
+
+
+}

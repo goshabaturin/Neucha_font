@@ -70,12 +70,12 @@ googleAnalytics = ""
 		subtitle_5 = "Пивные туры"
 		subtitle_6 = "Серф и сап туры"
 		buttonText = "Давай!"
-		instagram_link="#"
+		instagram_link="https://www.instagram.com/vungtautravel/"
 
 		links=[
 				["fa-vk", "#"],
-				["fa-facebook", "#"],
-				["fa-instagram", "#"],
+				["fa-facebook", "https://www.facebook.com/Туры-из-Вунгтау-738732519552269/?__mref=message_bubble"],
+				["fa-instagram", "https://www.instagram.com/vungtautravel/"],
 			]
 
 	# Portfolio section
@@ -174,8 +174,8 @@ googleAnalytics = ""
 			name = "Наталья Клокова"
 			social = [
 				["fa-vk", "#"],
-				["fa-facebook", "#"],
-				["fa-instagram", "#"]
+				["fa-facebook", "https://www.facebook.com/natalia.shestak.35"],
+				["fa-instagram", "https://www.instagram.com/natashaklokova/"]
 			]
 
 	
